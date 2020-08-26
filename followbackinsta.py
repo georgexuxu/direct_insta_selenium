@@ -25,7 +25,7 @@ driver.find_element_by_xpath('//*[@id="loginForm"]/div[1]/div[4]/div/label/input
 sleep(0.2)
 driver.find_element_by_xpath('//*[@id="loginForm"]/div[1]/div[6]/button/div').click()
 sleep(6)
-#save login ?
+#save login 
 driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/div/section/div/button').click()
 sleep(5)
 #notifications
@@ -43,7 +43,7 @@ for elem in buttons :
   # Tries to click an element
         driver.find_element_by_tag_name("button").click()
         try:
-            sleep(1)
+            sleep(1.5)
             driver.find_element_by_xpath('/html/body/div[4]/div/div/div/div[3]/button[2]').click()
         except:
             pass
